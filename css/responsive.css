@@ -1,14 +1,14 @@
 @media (max-width: 415px) {
     .menu {
         flex-direction: column;
-        width: 100vh;
+        width: 100vw;
         border-radius: 0px 0px 30px 30px;
         height: 100vh;
     }
 
     .results_summary_component .score {
         border-radius: 0px 0px 30px 30px;
-        max-width: 100vh;
+        max-width: 100vw;
     }
 
     .results_summary_component .score .nota {
@@ -22,7 +22,7 @@
     }
 
     .results_summary_component .summary {
-        width: 100vh;
+        width: 100vw;
         gap: 22px;
     }
 
