@@ -1,0 +1,43 @@
+@media (max-width: 375px) {
+    .menu {
+        flex-direction: column;
+        width: 375px;
+        border-radius: 0px 0px 30px 30px;
+        height: 100vh;
+    }
+
+    .results_summary_component .score {
+        border-radius: 0px 0px 30px 30px;
+        max-width: 375px;
+    }
+
+    .results_summary_component .score .nota {
+        font-size: 52px;
+        height: 130px;
+        width: 130px;
+    }
+
+    .results_summary_component .score .descricao {
+        font-size: 16px;
+    }
+
+    .results_summary_component .summary {
+        width: 375px;
+        gap: 22px;
+    }
+
+    .results_summary_component .summary .summary_itens {
+        gap: 15px;
+    }
+
+    .summary .summary_itens li {
+        padding: 18px;
+        border-radius: 10px;
+    }
+
+    .summary .button_continue {
+        font-size: 18px;
+        padding: 20px;
+        border-radius: 40px;
+    }
+}
