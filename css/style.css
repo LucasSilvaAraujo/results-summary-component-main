@@ -99,6 +99,10 @@ ul {
     margin-left: 42px;
 }
 
+.summary .summary_itens .black {
+    color: hsl(224, 30%, 27%, 1);
+}
+
 .summary .summary_itens .reaction {
     background-color: hsl(0, 100%, 67%, 0.1);
     color: hsl(0, 100%, 67%);
