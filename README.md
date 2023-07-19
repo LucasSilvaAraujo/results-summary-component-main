@@ -44,36 +44,42 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+In this project I learned how to use the "<span>" tag, yes, I'm a newbie XD. But I'm proud of it, everyone should start it from somewhere right? Look beyond some parts that I used.
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+      <section class="score">
+        <h1 class="titulo_resultado">Your Result</h1>
+        <h2 class="nota">76 <span>of 100</span></h2>
+        <h3 class="nota_descritivo">Great</h3>
+        <p class="descricao">You scored higher than 65% of the people who have taken these tests.</p>
+      </section>
+
+        <ul class="summary_itens">
+          <li class="reaction"><img src="assets/images/icon-reaction.svg" alt="">Reaction<span> </span><span><b>80</b> / 100</span></li>
+          <li class="memory"><img src="assets/images/icon-memory.svg" alt="">Memory<span> </span><span><b>92</b> / 100</span></li>
+          <li class="verbal"><img src="assets/images/icon-verbal.svg" alt="">Verbal<span> </span><span><b>61</b> / 100</span></li>
+          <li class="visual"><img src="assets/images/icon-visual.svg" alt="">Visual<span> </span><span><b>72</b> / 100</span></li>
+        </ul>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.results_summary_component .score span {
+    font-size: 14px;
+    color: hsl(241, 100%, 89%, 0.4);
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+.summary .summary_itens span {
+    color: hsl(224, 30%, 27%, 0.7);
+}
+```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+It's on my planning to do some improvements to look better and most similar with the example. The spacing between the words from the right part it's one thing that I need to improve, don't really now how to do this for now but gonna change very soon.
 
 ### Useful resources
 
 - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
