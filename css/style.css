@@ -89,12 +89,14 @@ ul {
 .summary .summary_itens li {
     display: flex;
     padding: 13px;
+    text-align: left;
     justify-content: space-between;
     border-radius: 5px;
 }
 
 .summary .summary_itens span {
     color: hsl(224, 30%, 27%, 0.7);
+    margin-left: 42px;
 }
 
 .summary .summary_itens .reaction {

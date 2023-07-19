@@ -35,6 +35,10 @@
         border-radius: 10px;
     }
 
+    .summary .summary_itens span {
+        margin-left: 120px;
+    }
+
     .summary .button_continue {
         font-size: 18px;
         padding: 20px;
