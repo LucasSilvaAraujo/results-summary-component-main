@@ -12,7 +12,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -75,11 +74,6 @@ In this project I learned how to use the "<span>" tag, yes, I'm a newbie XD. But
 ### Continued development
 
 It's on my planning to do some improvements to look better and most similar with the example. The spacing between the words from the right part it's one thing that I need to improve, don't really now how to do this for now but gonna change very soon.
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
